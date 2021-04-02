@@ -1,0 +1,60 @@
+nav{
+    background: url(./assets/milky-way-984050_1280.webp);
+    filter: invert();
+    width: 40%;
+    margin-left: 60%;
+    border-bottom-left-radius: 18em;
+    border-top-left-radius: 2em;
+    height: 2.5em;
+    opacity: .45;
+    transition: ease-in 8s;
+    animation: navFade cubic-bezier(.1, .25, .5, .9) 20s;
+    transform: scaleX(1);
+    
+    
+}
+
+@keyframes navFade {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    95%{opacity: .4;}
+   
+}
+#navWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+
+.topButton{
+    color: rgba(255, 251, 251, 0.6);
+    background-color: rgba(163, 17, 17, 0);
+    border-radius: 15px;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 1.4em;
+    width: 100%;
+    transition: .5s ease-in-out; 
+    outline: none;
+    width: 25%;
+    height: 86%;
+    margin-top: .50%;
+}
+
+
+.topButton:hover{
+    opacity: 50%;
+    border-color:rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.712);
+    box-shadow: 1px 1px 5px rgba(0, 31, 23, 0.9);
+    transition: .4s cubic-bezier(1, 1, 1, 1);
+    
+}
+
+#projectsWrapper{
+    display: flex;
+    flex-direction: row;
+}
+

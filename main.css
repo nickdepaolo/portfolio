@@ -1,0 +1,129 @@
+@import "fallingBars.css";
+@import "name.css";
+@import "contact.css";
+@import "nav.css";
+@import "bottom.css";
+
+body{
+margin: 0%;
+background-color: rgb(0, 0, 0);
+}
+
+.bubble{
+animation: fadeIn ease 5s;
+filter: blur(1.5px);
+border-top-style: solid;
+border-bottom-style: solid;
+border-color: rgba(64, 224, 208, 0.6);
+border-width: .5px;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  10%{opacity: 0;}
+  50%{opacity:.5;}
+  100% {opacity:1;}
+}
+
+#topBar{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#openArms{
+width: 100%;
+height: auto;
+filter:grayscale();
+top: 90%;
+opacity: .8;
+top: -23em;
+}
+
+h1{
+  
+  font-size: 350%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: -.09em;
+}
+
+h3{
+  font-size: 200%;
+  font-family:sans-serif;
+}
+
+h4{
+  font-size: 150%;
+  font-family:sans-serif;
+}
+
+h5{
+  font-size: 135%;
+  font-family:sans-serif;
+}
+p{
+  font-size: 106%;
+  font-family:sans-serif;
+  letter-spacing: -10%;
+}
+
+a{
+  color: rgb(128, 114, 97);
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(136, 136, 122);
+}
+
+#topHat{
+  filter:invert();
+  position: relative;
+  opacity: 0;
+  animation: walk cubic-bezier(1, 1, 1, 1) 40s;
+  animation-iteration-count: 50;
+  right: 0%;
+  width: 5%;
+ 
+}
+
+#topHatImage{
+  height: 7em;
+}
+
+@keyframes walk {
+  0% {right: 0%; opacity: 0;}
+  10%{opacity: .1;}
+  
+  90% {opacity: .1;}
+  91%{opacity: .1; right: -93%;}
+  92%{opacity: 0; right: -93%;}
+  100% {opacity: 0; right: -93%;}
+}
+
+#dogHouse{
+  filter:invert();
+  position: relative;
+  opacity: 0;
+  animation: dog cubic-bezier(1, 1, 1, 1) 40s;
+  animation-iteration-count: 50;
+  right: 90%;
+  width: 5%;
+}
+
+#dog{
+  height: 4em;
+  margin-top: 37px;
+}
+
+@keyframes dog {
+  0% {right: 0%; opacity: 0;}
+  60%{opacity: 0;  right: -1%;}
+  61%{opacity: .1;}
+  
+  90% {opacity: .1;}
+  91%{opacity: .1; right: -83%;}
+  92%{opacity: 0; right: -83%;}
+  100% {opacity: 0; right: -83%;}
+}
+
