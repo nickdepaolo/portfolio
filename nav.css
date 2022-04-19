@@ -5,10 +5,10 @@ nav{
     margin-left: 60%;
     border-bottom-left-radius: 18em;
     border-top-left-radius: 2em;
-    height: 3em;
+    height: 3.5em;
     opacity: .45;
-    transition: ease-in 8s;
-    animation: navFade cubic-bezier(.1, .25, .5, .9) 20s;
+    transition: ease-in 3s;
+    animation: navFade cubic-bezier(.1, .25, .5, .9) 10s;
     transform: scaleX(1);
     
     
