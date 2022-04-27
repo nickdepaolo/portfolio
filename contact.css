@@ -19,10 +19,24 @@
     background: url(./assets/milky-way-night-sky.jpg);
     border-top-right-radius: 90px;
     border-bottom-right-radius: 10px;
+    border-top: 1em;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: rgba(255, 255, 255, 0.205);
+    border-style: solid;
     background-size: 100%;
     width: 90%;
     height: 14%;
     text-align: center;
+}
+#bar3{
+    border-top: 0em;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1em;
+    border-color: rgba(255, 255, 255, 0.205);
+    border-style: solid;
 }
 
 #emailField{
