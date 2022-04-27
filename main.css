@@ -8,7 +8,7 @@ body{
 margin: 0%;
 background-color: black;
 background-repeat: no-repeat;
- background-size: cover;
+background-size: cover;
 }
 
 .bubble{
@@ -39,26 +39,32 @@ h1{
   font-size: 350%;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   letter-spacing: -.09em;
+  color: rgba(240, 248, 255, 0.405);
 }
 
 h3{
   font-size: 200%;
   font-family:sans-serif;
+  color: rgba(240, 248, 255, 0.405);
 }
 
 h4{
   font-size: 150%;
   font-family:sans-serif;
+  color: rgba(240, 248, 255, 0.405);
 }
 
 h5{
   font-size: 135%;
   font-family:sans-serif;
+  color: rgba(240, 248, 255, 0.405);
 }
 p{
   font-size: 106%;
   font-family:sans-serif;
   letter-spacing: -10%;
+  color: rgba(240, 248, 255, 0.405);
+
 }
 
 a{
@@ -70,29 +76,34 @@ a:hover{
   color: rgb(136, 136, 122);
 }
 
+label{
+  color: rgb(136, 136, 122);
+
+}
+
 #skills{
   text-align: center;
 }
 
-#skillsWrapper{
+.skillsWrapper{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-#skillscol1{
-display: flex;
-flex-direction: column;
-}
-
-#skillscol2{
+.skillscol1{
 display: flex;
 flex-direction: column;
 }
 
 .skillIcon{
-  height: 3em;
-  width: 11em;
+  height: 5.5em;
+  margin-bottom: 2.5em;
+  filter: opacity(.7);
+}
+
+#github{
+  filter: invert();
 }
 
 
