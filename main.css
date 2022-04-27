@@ -104,7 +104,9 @@ flex-direction: column;
 }
 
 #github{
-  filter: invert();
+  filter: invert() opacity(.5);
+  height: 5.5em;
+  margin-bottom: 2.5em;
 }
 
 
