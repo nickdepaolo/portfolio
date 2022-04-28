@@ -10,7 +10,7 @@
     }
   
   @keyframes dropOut {
-    0% {opacity:0; top: 30%;}
+    0% {opacity:0; top: 40%;}
     40%{filter: blur(.5px);}
     50%{opacity: 1; transform: scaleX(1);}
     90%{opacity: 0; transform: scaleX(.1)}
@@ -33,7 +33,7 @@
     40%{filter: blur(.5px);}
     50%{opacity: 1; transform: scaleX(1);}
     90%{opacity: 0; transform: scaleX(.1)}
-    100% {opacity:0; top: 30%;}
+    100% {opacity:0; top: 40%;}
   }
   
   .transi3{
@@ -70,7 +70,7 @@
     40%{filter: blur(.5px);}
     50%{opacity: 1; transform: scaleX(1);}
     90% {opacity: 0; transform: scaleX(.1)}
-    100% {opacity:0; top:30%;}
+    100% {opacity:0; top:40%;}
   }
   
   .transi5{
@@ -102,7 +102,7 @@
   }
   
   @keyframes dropOut6 {
-    0% {opacity:0; top: 30%;}
+    0% {opacity:0; top: 40%;}
     40%{filter: blur(.5px);}
     50%{opacity: 1;  transform: scaleX(1);}
     95%{opacity: 0; transform: scaleX(.1)}
@@ -124,7 +124,7 @@
     40%{filter: blur(.5px);}
     50%{opacity: 1;  transform: scaleX(1);}
     95%{opacity: 0; transform: scaleX(.1)}
-    100% {opacity:0; top: 30%;}
+    100% {opacity:0; top: 50%;}
   }
 
   .transi8{
@@ -138,7 +138,7 @@
   }
   
   @keyframes dropOut8 {
-    0% {opacity:0; top: 30%;}
+    0% {opacity:0; top: 50%;}
     40%{filter: blur(.5px);}
     50%{opacity: 1;  transform: scaleX(1);}
     95%{opacity: 0; transform: scaleX(.1)}
@@ -160,7 +160,7 @@
     40%{filter: blur(.5px);}
     50%{opacity: 1;  transform: scaleX(1);}
     95%{opacity: 0; transform: scaleX(.1)}
-    100% {opacity:0; top: 30%;}
+    100% {opacity:0; top: 40%;}
   }
 
   .transi10{
@@ -174,7 +174,7 @@
   }
   
   @keyframes dropOut10 {
-    0% {opacity:0; top: 30%;}
+    0% {opacity:0; top: 50%;}
     40%{filter: blur(.5px);}
     50%{opacity: 1;  transform: scaleX(1);}
     95%{opacity: 0; transform: scaleX(.1)}
