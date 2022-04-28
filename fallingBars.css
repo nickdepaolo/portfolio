@@ -146,7 +146,7 @@
   }
 
   .transi9{
-    animation: dropOut9 cubic-bezier(1, .5, .5, 1) 9s;
+    animation: dropOut9 cubic-bezier(1, .5, .5, 1) 4.5s;
     position: absolute;
     margin-top: 4em;
     filter: blur(15px);
