@@ -100,11 +100,11 @@ flex-direction: column;
 .skillIcon{
   height: 5.5em;
   margin-bottom: 2.5em;
-  filter: opacity(.7);
+  filter: opacity(.5);
 }
 
 #github{
-  filter: invert() opacity(.5);
+  filter: invert() opacity(.4);
   height: 5.5em;
   margin-bottom: 2.5em;
 }
