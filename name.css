@@ -10,6 +10,7 @@
     padding-top: 9%;
     animation: nameFade cubic-bezier(.1, .25, .5, .9) 5s;
     transform: scaleX(1);
+    right: .5%;
     
     
 }
