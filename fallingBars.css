@@ -79,16 +79,16 @@
     margin-top: 0em;
     filter: blur(15px);
     border-radius: 4px;
-    right: 14.7%;
+    left: 20%;
     transform: scaleX(0);
   }
   
   @keyframes dropOut5 {
-    0% {opacity:0; top: 12%;}
+    0% {opacity:0; top: 50%;}
     40%{filter: blur(.5px);}
     50%{opacity: 1; transform: scaleX(1);}
     90% {opacity: 0; transform: scaleX(.1)}
-    100% {opacity:0; top: 50%;}
+    100% {opacity:0; top: 12%;}
   }
   
   .transi6{
@@ -97,7 +97,7 @@
     margin-top: 4em;
     filter: blur(15px);
     border-radius: 4px;
-    right: 9.4%;
+    right: 20%;
     transform: scaleX(0);
   }
   
@@ -115,7 +115,7 @@
     margin-top: 4em;
     filter: blur(15px);
     border-radius: 4px;
-    right: 5.3%;
+    right: 14.7%;
     transform: scaleX(0);
   }
   
@@ -133,11 +133,47 @@
     margin-top: 4em;
     filter: blur(15px);
     border-radius: 4px;
-    right: 1%;
+    right: 9.4%;
     transform: scaleX(0);
   }
   
   @keyframes dropOut8 {
+    0% {opacity:0; top: 30%;}
+    40%{filter: blur(.5px);}
+    50%{opacity: 1;  transform: scaleX(1);}
+    95%{opacity: 0; transform: scaleX(.1)}
+    100% {opacity:0; top: 0%;}
+  }
+
+  .transi9{
+    animation: dropOut9 cubic-bezier(1, .5, .5, 1) 4.5s;
+    position: absolute;
+    margin-top: 4em;
+    filter: blur(15px);
+    border-radius: 4px;
+    right: 5.3%;
+    transform: scaleX(0);
+  }
+  
+  @keyframes dropOut9 {
+    0% {opacity:0; top: 0%;}
+    40%{filter: blur(.5px);}
+    50%{opacity: 1;  transform: scaleX(1);}
+    95%{opacity: 0; transform: scaleX(.1)}
+    100% {opacity:0; top: 30%;}
+  }
+
+  .transi10{
+    animation: dropOut10 cubic-bezier(1, .5, .5, 1) 7s;
+    position: absolute;
+    margin-top: 4em;
+    filter: blur(15px);
+    border-radius: 4px;
+    right: 1%;
+    transform: scaleX(0);
+  }
+  
+  @keyframes dropOut10 {
     0% {opacity:0; top: 30%;}
     40%{filter: blur(.5px);}
     50%{opacity: 1;  transform: scaleX(1);}

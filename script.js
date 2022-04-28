@@ -144,6 +144,36 @@ function transi8Reset() {
     transi8();
 }
 
+a = document.createElement("img")
+a.className = "transi9"
+
+function transi9() {
+    increasePn();
+    document.body.appendChild(a);
+    setTimeout(function(){transi9Reset()}, 4500);
+}
+
+function transi9Reset() {
+    document.body.removeChild(a);
+    a.setAttribute("src", `https://picsum.photos/48/${(pn + 7)}`);
+    transi9();
+}
+
+n = document.createElement("img")
+n.className = "transi10"
+
+function transi10() {
+    increasePn();
+    document.body.appendChild(n);
+    setTimeout(function(){transi10Reset()}, 7000);
+}
+
+function transi10Reset() {
+    document.body.removeChild(n);
+    n.setAttribute("src", `https://picsum.photos/48/${(pn + 1)}`);
+    transi10();
+}
+
 
 
 
@@ -156,6 +186,8 @@ function startTransi() {
     setTimeout(function(){transi6()}, 0);
     setTimeout(function(){transi7()}, 0);
     setTimeout(function(){transi8()}, 0);
+    setTimeout(function(){transi9()}, 0);
+    setTimeout(function(){transi10()}, 0);
 }
 
 startTransi()
