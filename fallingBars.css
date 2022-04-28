@@ -23,7 +23,7 @@
     margin-top: 6em;
     filter: blur(15px);
     border-radius: 4px;
-    left: 5.3%;
+    left: 5%;
     z-index: 0;
     transform: scaleX(0)
   }
@@ -42,7 +42,7 @@
     margin-top: 0em;
     filter: blur(15px);
     border-radius: 4px;
-    left: 9.4%;
+    left: 9%;
     z-index: 0;
     transform: scaleX(0)
   }
@@ -61,7 +61,7 @@
     margin-top: 7em;
     filter: blur(15px);
     border-radius: 4px;
-    left: 14.7%;
+    left: 13%;
     transform: scaleX(0)
   }
   
@@ -79,7 +79,7 @@
     margin-top: 0em;
     filter: blur(15px);
     border-radius: 4px;
-    left: 20%;
+    left: 17%;
     transform: scaleX(0);
   }
   
@@ -97,7 +97,7 @@
     margin-top: 4em;
     filter: blur(15px);
     border-radius: 4px;
-    right: 20%;
+    right: 17%;
     transform: scaleX(0);
   }
   
@@ -115,7 +115,7 @@
     margin-top: 4em;
     filter: blur(15px);
     border-radius: 4px;
-    right: 14.7%;
+    right: 13%;
     transform: scaleX(0);
   }
   
@@ -133,7 +133,7 @@
     margin-top: 4em;
     filter: blur(15px);
     border-radius: 4px;
-    right: 9.4%;
+    right: 9%;
     transform: scaleX(0);
   }
   
@@ -146,12 +146,12 @@
   }
 
   .transi9{
-    animation: dropOut9 cubic-bezier(1, .5, .5, 1) 4.5s;
+    animation: dropOut9 cubic-bezier(1, .5, .5, 1) 9s;
     position: absolute;
     margin-top: 4em;
     filter: blur(15px);
     border-radius: 4px;
-    right: 5.3%;
+    right: 5%;
     transform: scaleX(0);
   }
   
@@ -164,7 +164,7 @@
   }
 
   .transi10{
-    animation: dropOut10 cubic-bezier(1, .5, .5, 1) 7s;
+    animation: dropOut10 cubic-bezier(1, .5, .5, 1) 8s;
     position: absolute;
     margin-top: 4em;
     filter: blur(15px);
