@@ -37,7 +37,7 @@
 #contactWrapper{
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 75%;
     height: 100%;
     text-align: center;
     border-width: 2px;
